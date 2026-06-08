@@ -35,7 +35,7 @@ Todas las modificaciones son **totalmente reversibles**, permitiéndote experime
 
 - **Identificación Completa de Hardware**: Recopila todos los identificadores únicos de tu PC (BIOS, CPU, GPU, discos, monitores EDID, etc.) con exportación en un clic.
 - **Gestor de Controladores Avanzado**: Detecta, inspecciona y permite desinstalar controladores de terceros con información de firmas y anomalías.
-- **Catálogo Extenso de Optimizaciones** (más de 166): Latencia, CPU, almacenamiento NVMe, red TCP, entrada, memoria, gaming (VRR/Auto-HDR), privacidad y más.
+- **Catálogo Extenso de Optimizaciones** (más de 160): Latencia, CPU, almacenamiento NVMe, red TCP, entrada, memoria, gaming (VRR/Auto-HDR), privacidad y más.
 - **Módulo Seguridad ↔ Rendimiento**: Control opcional de VBS, HVCI, mitigaciones Spectre/Meltdown con advertencias claras.
 - **Dashboard Mejorado**: Información en tiempo real de hardware, red, licencia de Windows y más.
 - **Monitores Avanzados**: Soporte HDR, resolución nativa, modelo real y datos EDID precisos.
@@ -50,7 +50,7 @@ Todas las modificaciones son **totalmente reversibles**, permitiéndote experime
 
 ### Gaming Optimizer 3.0.0 (Versión Actual)
 - Dos nuevas herramientas potentes: **Hardware Identification** y **Drivers Manager**.
-- Catálogo de optimizaciones casi duplicado (≈86 → 166).
+- Catálogo de optimizaciones casi duplicado (≈86 → 165).
 - Nueva interfaz completamente responsive.
 - Módulo avanzado de Seguridad vs Rendimiento (opt-in).
 - Mejoras en la detección de monitores (HDR, EDID, año de fabricación).
