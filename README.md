@@ -1,146 +1,189 @@
-# GamingOptimizer
+<div align="center">
 
-![Version](https://img.shields.io/badge/Version-3.0.0-blue.svg)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Languages](https://img.shields.io/badge/Languages-English%20%7C%20Español-orange.svg)
+# 🎮 Gaming Optimizer
 
-**GamingOptimizer** es una herramienta potente y fácil de usar para optimizar Windows, diseñada para mejorar el rendimiento en juegos, la capacidad de respuesta del sistema y la privacidad, manteniendo siempre la seguridad y la reversibilidad total de todos los cambios.
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/derzslows/GamingOptimizer/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20(x64)-0078D6.svg?logo=windows)](#-system-requirements)
+[![.NET](https://img.shields.io/badge/.NET%208%20%C2%B7%20WinUI%203-512BD4.svg?logo=dotnet)](#-build-from-source)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Languages](https://img.shields.io/badge/i18n-English%20%7C%20Espa%C3%B1ol-orange.svg)](#)
 
----
+**A powerful, modern and fully‑reversible Windows optimizer for gaming, performance, latency and privacy.**
 
-## 📋 Tabla de Contenidos
+**English** · [Español](README.es.md)
 
-- [Descripción](#-descripción)
-- [Características Principales](#-características-principales)
-- [Novedades](#-novedades)
-- [Instalación](#-instalación)
-- [Requisitos del Sistema](#-requisitos-del-sistema)
-- [Uso](#-uso)
-- [Capturas de Pantalla](#-capturas-de-pantalla)
-- [Advertencias Importantes](#-advertencias-importantes)
-- [Versión en Español](#-versión-en-español)
-- [Licencia](#-licencia)
-- [Autor](#-derzslows)
+</div>
 
----
+> **Guiding principle:** *everything you turn off can be turned back on.* Every change captures its previous state and is reversible — even after a reboot — backed by a persistent journal and an optional Windows restore point before batches.
 
-## 📝 Descripción
+<div align="center">
 
-**GamingOptimizer** es una aplicación avanzada de optimización para Windows que ayuda a gamers y usuarios avanzados a obtener el máximo rendimiento de su equipo. Combina herramientas de diagnóstico, gestión de controladores, un amplio catálogo de optimizaciones y opciones avanzadas de configuración, todo dentro de una interfaz moderna y completamente responsive.
-
-Todas las modificaciones son **totalmente reversibles**, permitiéndote experimentar con confianza.
-
-### Características Principales
-
-- **Identificación Completa de Hardware**: Recopila todos los identificadores únicos de tu PC (BIOS, CPU, GPU, discos, monitores EDID, etc.) con exportación en un clic.
-- **Gestor de Controladores Avanzado**: Detecta, inspecciona y permite desinstalar controladores de terceros con información de firmas y anomalías.
-- **Catálogo Extenso de Optimizaciones** (más de 160): Latencia, CPU, almacenamiento NVMe, red TCP, entrada, memoria, gaming (VRR/Auto-HDR), privacidad y más.
-- **Módulo Seguridad ↔ Rendimiento**: Control opcional de VBS, HVCI, mitigaciones Spectre/Meltdown con advertencias claras.
-- **Dashboard Mejorado**: Información en tiempo real de hardware, red, licencia de Windows y más.
-- **Monitores Avanzados**: Soporte HDR, resolución nativa, modelo real y datos EDID precisos.
-- **Herramientas de Limpieza**: Apps & Debloat, Cleanup y Startup rediseñados con búsqueda y categorías.
-- **Monitor de Red**: Tráfico en tiempo real e inspector de conexiones por proceso.
-- **Interfaz Totalmente Responsive**: Se adapta perfectamente a monitores ultrawide y de alta resolución.
-- **Disponible en Inglés y Español**.
-
----
-
-## 🚀 Novedades
-
-### GamingOptimizer 3.0.0 (Versión Actual)
-- Dos nuevas herramientas potentes: **Hardware Identification** y **Drivers Manager**.
-- Catálogo de optimizaciones casi duplicado (≈86 → 165).
-- Nueva interfaz completamente responsive.
-- Módulo avanzado de Seguridad vs Rendimiento (opt-in).
-- Mejoras en la detección de monitores (HDR, EDID, año de fabricación).
-
-### GamingOptimizer 2.0.0
-- Dashboard mucho más completo.
-- Más optimizaciones para gaming, rendimiento y privacidad.
-- Monitor de tráfico y inspector de conexiones de red.
-- Secciones de Apps, Debloat, Cleanup y Startup rediseñadas.
-
----
-
-## 📥 Instalación
-
-1. Descarga el archivo `GamingOptimizer.msi` desde la sección de [Releases](https://github.com/derzslows/gamingoptimizer/releases/latest).
-2. Ejecuta el instalador.
-3. Si tienes una versión anterior, se actualizará automáticamente.
-
-**Nota**: Es necesario ejecutar el programa con derechos de administrador.
-
----
-
-## ⚙️ Requisitos del Sistema
-
-- **Sistema Operativo**: Windows 10 o Windows 11 (64-bit)
-- **Privilegios**: Derechos de Administrador
-- **.NET Framework**: Incluido en el instalador
-
----
-
-## 📖 Uso
-
-1. Abre **GamingOptimizer** con permisos de administrador.
-2. Explora las diferentes secciones desde el menú lateral.
-3. Usa el **Dashboard** para una vista general de tu sistema.
-4. Aplica las optimizaciones que desees (todas son reversibles).
-5. Utiliza las herramientas de Hardware y Drivers para diagnósticos avanzados.
-
----
-
-## 📸 Capturas de Pantalla
-
-### Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/474d4e81-0031-4a40-8e52-e4c9daf4369e)
 
-### Optimizaciones
-![Optimizaciones](https://github.com/user-attachments/assets/db89651e-5563-49b1-9aeb-7388f95f3e1b)
-
-### Herramientas de Red
-![Network Tools](https://github.com/user-attachments/assets/4f1969de-54ba-4230-9b52-7365fb29059c)
-
-### Instalador de Aplicaciones
-![Apps Installer](https://github.com/user-attachments/assets/26254cb3-97bc-41de-b4dd-1fbac9d14e79)
-
-
+</div>
 
 ---
 
-## ⚠️ Advertencias Importantes
+## 📋 Table of Contents
 
-- Algunas optimizaciones pueden afectar la estabilidad del sistema. Úsalas bajo tu propia responsabilidad.
-- Crea un **punto de restauración** antes de aplicar cambios importantes.
-- El módulo de Seguridad vs Rendimiento requiere comprensión técnica.
-- Siempre puedes revertir cualquier cambio realizado por la herramienta.
-
----
-
-## 🌍 Versión en Español
-
-**GamingOptimizer** es una herramienta potente y amigable para optimizar Windows, diseñada para mejorar el rendimiento en juegos, la respuesta del sistema y la privacidad, manteniendo todos los cambios seguros y completamente reversibles.
-
-Ofrece diagnóstico de hardware, gestión de controladores, un amplio catálogo de ajustes de rendimiento, monitorización de red, herramientas de desinstalación de software innecesario y opciones avanzadas de seguridad vs rendimiento, todo en una interfaz moderna y adaptable.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia **MIT**. Ver el archivo [LICENSE](LICENSE) para más detalles.
+- [Overview](#-overview)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Installation](#-installation)
+- [System Requirements](#-system-requirements)
+- [What's New in 3.0.0](#-whats-new-in-300)
+- [Build from Source](#-build-from-source)
+- [Reversibility & Safety](#-reversibility--safety)
+- [Disclaimer](#-disclaimer)
+- [License](#-license)
+- [Author](#-author)
 
 ---
 
-## 👤 Autor
+## 📝 Overview
 
-**DerzSlows**  
-- GitHub: [@derzslows](https://github.com/derzslows)
+**Gaming Optimizer** helps gamers and power users get the most out of Windows. It combines **diagnostics**, **driver management**, an extensive catalog of **reversible optimizations**, **real‑time monitoring** and **cleanup tools** in a single modern, fully responsive interface — in **English and Spanish**.
 
----
-
-⭐ Si este proyecto te ha sido útil, ¡no olvides dejar una estrella!
+Unlike one‑shot "tweak scripts", every optimization here is applied through a reversible engine: you can experiment with confidence and roll back any change, individually or all at once.
 
 ---
 
-*Hecho con ❤️ para la comunidad gamer y usuarios avanzados de Windows.*
+## ✨ Features
+
+### 🎛️ Optimizations — 160+ reversible tweaks
+Curated, documented tweaks across **15 categories**: Gaming, CPU, GPU, Memory, Storage, Network, Power, Latency/timers, Input, Appearance/DWM, Privacy/Telemetry, Services, Startup and System. Search and filter, **Easy / Advanced** modes, *Apply recommended* and *Restore all*. No snake‑oil — only real, source‑backed changes.
+
+### 📊 Dashboard
+Real‑time overview: hardware names and models, all drives with usage, live network throughput, CPU/GPU/RAM details, base clock/cores/sockets, L1/L2/L3 cache, RAM speed/XMP, Windows license/activation, active sessions and process count.
+
+### 🧰 Tools
+- **🆔 Hardware Identification** — every unique ID of your machine in one place: BIOS/SMBIOS, motherboard, CPU (ProcessorID, microcode, cache), GPUs, RAM modules, disks (serial / unique ID / GUID), volumes, partitions, monitors (EDID + SHA‑256), network MAC/GUID, Bluetooth, audio, USB controllers, TPM, Secure Boot, Windows Product ID, Machine GUID & SID — with one‑click **Copy report**.
+- **🧩 Drivers** — a complete driver detector, inspector and manager: device drivers, kernel/services and loaded kernel modules, with signature and third‑party info, **anomaly detection** and uninstall of third‑party packages.
+- **🖥️ Display** — real monitor model, **HDR** support, native resolution, scaling, refresh rate, rotation and primary‑display switching, read straight from each monitor's EDID.
+- **⚡ Power plans & GPU** — reveal/manage power plans (incl. Ultimate Performance) and GPU/driver utilities.
+- **🌐 Network** — real‑time traffic monitor, a **per‑process connection inspector**, and network tools (DNS, ping, diagnostics).
+- **🚀 Startup** — manage what launches with Windows.
+
+### 🧹 Maintenance
+- **📦 Apps & Debloat** — install 150+ curated apps via `winget` (browsers, gaming, dev, monitoring, security…) with search and categories; remove preinstalled UWP bloatware.
+- **🧽 Cleanup** — reclaim disk space safely.
+
+### 🔒 Security ↔ Performance module *(Advanced, opt‑in)*
+Optionally toggle **VBS**, **Memory Integrity (HVCI)**, **Spectre/Meltdown mitigations**, **Credential Guard** and the **hypervisor** — each with clear warnings and full reversibility. Hidden in Easy mode and gated behind explicit confirmation.
+
+### Also
+♻️ Fully reversible engine · 🖼️ Modern, **responsive UI** (reflows to ultrawide/high‑DPI) · 🌍 English & Spanish · 🔄 Automatic updates.
+
+---
+
+## 📸 Screenshots
+
+| Dashboard | Optimizations |
+|---|---|
+| ![Dashboard](https://github.com/user-attachments/assets/474d4e81-0031-4a40-8e52-e4c9daf4369e) | ![Optimizations](https://github.com/user-attachments/assets/db89651e-5563-49b1-9aeb-7388f95f3e1b) |
+| **Network Tools** | **Apps Installer** |
+| ![Network Tools](https://github.com/user-attachments/assets/4f1969de-54ba-4230-9b52-7365fb29059c) | ![Apps Installer](https://github.com/user-attachments/assets/26254cb3-97bc-41de-b4dd-1fbac9d14e79) |
+
+---
+
+## 📥 Installation
+
+1. Download **`GamingOptimizer-x.y.z.msi`** from the [latest release](https://github.com/derzslows/GamingOptimizer/releases/latest).
+2. Run the installer (you'll be prompted to confirm administrator rights).
+3. If you already have an older version, it **updates automatically**.
+
+The app is self‑contained — the .NET runtime is bundled, nothing else to install.
+
+---
+
+## ⚙️ System Requirements
+
+| | |
+|---|---|
+| **OS** | Windows 10 or Windows 11 (64‑bit) |
+| **Privileges** | Administrator (the app runs elevated) |
+| **Runtime** | None — bundled in the installer |
+
+---
+
+## 🚀 What's New in 3.0.0
+
+- 🆕 Two new tools: **Hardware Identification** and **Drivers** manager.
+- ⚡ Optimization catalog nearly doubled (**86 → 166**), plus an advanced **Security ↔ Performance** module.
+- 🖼️ **Fully responsive UI** across every page (multi‑column reflow on wide displays).
+- 🖥️ **Display fixes** — HDR, native resolution and manufacture year now read correctly from EDID.
+
+<details>
+<summary>2.0.0</summary>
+
+- Far more complete Dashboard; more gaming/performance/privacy optimizations.
+- Network traffic monitor and per‑process connection inspector.
+- Redesigned Apps & Debloat, Cleanup and Startup.
+
+</details>
+
+---
+
+## 🛠️ Build from Source
+
+**Stack:** WinUI 3 / Windows App SDK 1.8 · .NET 8 · `win-x64` (unpackaged) · CommunityToolkit.Mvvm · Microsoft.Extensions.Hosting (DI) · WiX Toolset v3 (MSI).
+
+**Prerequisites:** [.NET 8 SDK](https://dotnet.microsoft.com/download), the *Windows App SDK* workload, and (for the installer) [WiX Toolset v3](https://wixtoolset.org/).
+
+```powershell
+# Build (Debug)
+dotnet build .\GamingOptimizer.App\GamingOptimizer.App.csproj -c Debug
+
+# Run (prompts UAC — runs elevated)
+Start-Process ".\GamingOptimizer.App\bin\Debug\net8.0-windows10.0.19041.0\win-x64\GamingOptimizer.App.exe"
+
+# Tests
+dotnet test .\GamingOptimizer.Tests\GamingOptimizer.Tests.csproj
+```
+
+For versioning, publishing and building the MSI there is a small GUI tool — **`builder.ps1`** — that bumps the version everywhere, builds the self‑contained app + updater, regenerates the file list and produces the installer (including the build‑time choice for the optional NG Sentinel agent: *never / optional / on by default*).
+
+> ⚠️ To rebuild the `.exe`, **close the running app first** — if it's open, the code compiles but copying the executable fails (`MSB3021/3027`).
+
+### Project structure
+
+| Project | Role |
+|---|---|
+| `GamingOptimizer.App` | WinUI 3 UI (MVVM Toolkit, MS.Extensions.Hosting DI) |
+| `GamingOptimizer.Core` | Contracts/abstractions, enums, `ITweak` / `ISystemChange` |
+| `GamingOptimizer.Platform` | Windows implementations: engine, change primitives, tweaks, GPU/network/power… |
+| `GamingOptimizer.Update` | Standalone updater (downloads the GitHub release) |
+| `GamingOptimizer.Installer` | WiX (MSI) — outside the `.sln` |
+| `GamingOptimizer.Tests` | xUnit (engine + journal + catalog) |
+
+---
+
+## ♻️ Reversibility & Safety
+
+Optimizations run through a reversible engine: `ITweak → ISystemChange → persistent journal`. Each change records the previous value before applying, so it can be reverted later — even across reboots. Registry changes restore the exact prior value; command/policy changes restore Windows defaults. Batches can create a **Windows restore point** first. There is **no registry "cleaner"** and Microsoft Defender / BitLocker / Windows Update services are left alone.
+
+---
+
+## ⚠️ Disclaimer
+
+This tool changes Windows system settings. Although every change is reversible, some optimizations — especially those in the **Security ↔ Performance** module — reduce protections or affect stability and are intended for personal, trusted PCs. Use at your own risk, and create a restore point before applying large batches.
+
+---
+
+## 📄 License
+
+Released under the **MIT License** — see [LICENSE](LICENSE).
+
+---
+
+## 👤 Author
+
+**derzslows** — [@derzslows](https://github.com/derzslows)
+
+<div align="center">
+
+⭐ *If this project is useful to you, consider leaving a star!*
+
+Made with ❤️ for gamers and Windows power users.
+
+</div>
