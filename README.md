@@ -93,7 +93,17 @@ Todas las modificaciones son **totalmente reversibles**, permitiéndote experime
 
 ## 📸 Capturas de Pantalla
 
-*(Próximamente)*
+### Dashboard
+![Dashboard](https://github.com/user-attachments/assets/474d4e81-0031-4a40-8e52-e4c9daf4369e)
+
+### Optimizaciones
+![Optimizaciones](https://github.com/user-attachments/assets/db89651e-5563-49b1-9aeb-7388f95f3e1b)
+
+### Herramientas de Red
+![Network Tools](https://github.com/user-attachments/assets/4f1969de-54ba-4230-9b52-7365fb29059c)
+
+### Instalador de Aplicaciones
+![Apps Installer](https://github.com/user-attachments/assets/26254cb3-97bc-41de-b4dd-1fbac9d14e79)
 
 
 
