@@ -65,7 +65,7 @@ Todas las modificaciones son **totalmente reversibles**, permitiéndote experime
 
 ## 📥 Instalación
 
-1. Descarga el archivo `GamingOptimizer.msi` desde la sección de [Releases](https://github.com/derzslows/gamingoptimizer/releases).
+1. Descarga el archivo `GamingOptimizer.msi` desde la sección de [Releases](https://github.com/derzslows/gamingoptimizer/releases/latest).
 2. Ejecuta el instalador.
 3. Si tienes una versión anterior, se actualizará automáticamente.
 
