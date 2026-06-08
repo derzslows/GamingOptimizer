@@ -4,7 +4,7 @@
 
 [![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/derzslows/GamingOptimizer/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20(x64)-0078D6.svg?logo=windows)](#%EF%B8%8F-requisitos-del-sistema)
-[![.NET](https://img.shields.io/badge/.NET%208%20%C2%B7%20WinUI%203-512BD4.svg?logo=dotnet)](#%EF%B8%8F-compilar-desde-el-código)
+[![.NET](https://img.shields.io/badge/.NET%208%20%C2%B7%20WinUI%203-512BD4.svg?logo=dotnet)](#)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Languages](https://img.shields.io/badge/i18n-English%20%7C%20Espa%C3%B1ol-orange.svg)](#)
 
@@ -32,7 +32,6 @@
 - [Instalación](#-instalación)
 - [Requisitos del sistema](#️-requisitos-del-sistema)
 - [Novedades de la 3.0.0](#-novedades-de-la-300)
-- [Compilar desde el código](#️-compilar-desde-el-código)
 - [Reversibilidad y seguridad](#️-reversibilidad-y-seguridad)
 - [Aviso](#️-aviso)
 - [Licencia](#-licencia)
@@ -121,40 +120,6 @@ La app es autónoma: el runtime de .NET va incluido, no hay que instalar nada m�
 - Apps & Debloat, Limpieza e Inicio rediseñados.
 
 </details>
-
----
-
-## 🛠️ Compilar desde el código
-
-**Stack:** WinUI 3 / Windows App SDK 1.8 · .NET 8 · `win-x64` (desempaquetado) · CommunityToolkit.Mvvm · Microsoft.Extensions.Hosting (DI) · WiX Toolset v3 (MSI).
-
-**Requisitos:** [.NET 8 SDK](https://dotnet.microsoft.com/download), la carga *Windows App SDK* y (para el instalador) [WiX Toolset v3](https://wixtoolset.org/).
-
-```powershell
-# Compilar (Debug)
-dotnet build .\GamingOptimizer.App\GamingOptimizer.App.csproj -c Debug
-
-# Ejecutar (pide UAC — corre elevada)
-Start-Process ".\GamingOptimizer.App\bin\Debug\net8.0-windows10.0.19041.0\win-x64\GamingOptimizer.App.exe"
-
-# Tests
-dotnet test .\GamingOptimizer.Tests\GamingOptimizer.Tests.csproj
-```
-
-Para versionar, publicar y generar el MSI hay una pequeña herramienta con interfaz —**`builder.ps1`**— que sube la versión en todos los sitios, compila la app + el updater (self‑contained), regenera la lista de archivos y produce el instalador (incluida la elección en compilación del agente opcional NG Sentinel: *nunca / opcional / marcado por defecto*).
-
-> ⚠️ Para recompilar el `.exe`, **cierra antes la app** — si está abierta, el código compila pero falla la copia del ejecutable (`MSB3021/3027`).
-
-### Estructura del proyecto
-
-| Proyecto | Rol |
-|---|---|
-| `GamingOptimizer.App` | UI WinUI 3 (MVVM Toolkit, MS.Extensions.Hosting DI) |
-| `GamingOptimizer.Core` | Contratos/abstracciones, enums, `ITweak` / `ISystemChange` |
-| `GamingOptimizer.Platform` | Implementaciones Windows: motor, primitivas de cambio, tweaks, GPU/red/energía… |
-| `GamingOptimizer.Update` | Updater independiente (descarga la release de GitHub) |
-| `GamingOptimizer.Installer` | WiX (MSI) — fuera del `.sln` |
-| `GamingOptimizer.Tests` | xUnit (motor + diario + catálogo) |
 
 ---
 
