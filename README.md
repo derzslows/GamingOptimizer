@@ -124,7 +124,7 @@ Este proyecto está bajo la licencia **MIT**. Ver el archivo [LICENSE](LICENSE) 
 
 ## 👤 Autor
 
-**Tu Nombre**  
+**DerzSlows**  
 - GitHub: [@derzslows](https://github.com/derzslows)
 
 ---
