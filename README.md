@@ -45,6 +45,8 @@
 
 Unlike one‑shot "tweak scripts", every optimization here is applied through a reversible engine: you can experiment with confidence and roll back any change, individually or all at once.
 
+This project was born, above all, to help friends with no technical background in two situations: **optimizing their Windows installation** without fear of breaking anything, and **getting a PC back up and running after a clean install** — apps installed and settings applied — from a single `.goprofile`.
+
 ---
 
 ## ✨ Features
