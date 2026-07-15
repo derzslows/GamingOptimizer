@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-4.1.0-blue.svg)](https://github.com/derzslows/GamingOptimizer/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20(x64)-0078D6.svg?logo=windows)](#%EF%B8%8F-requisitos-del-sistema)
 [![.NET](https://img.shields.io/badge/.NET%208%20%C2%B7%20WinUI%203-512BD4.svg?logo=dotnet)](#)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Freeware%20%C2%B7%20All%20rights%20reserved-red.svg)](LICENSE)
 [![Languages](https://img.shields.io/badge/i18n-English%20%7C%20Espa%C3%B1ol-orange.svg)](#)
 
 **Un optimizador de Windows potente, moderno y totalmente reversible para gaming, rendimiento, latencia y privacidad.**
