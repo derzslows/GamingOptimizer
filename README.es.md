@@ -45,6 +45,8 @@
 
 A diferencia de los "scripts de tweaks" de un solo uso, aquí cada optimización se aplica con un motor reversible: puedes experimentar con confianza y revertir cualquier cambio, individualmente o todos a la vez.
 
+Este proyecto nació, ante todo, para ayudar a amigos sin conocimientos técnicos en dos situaciones: **optimizar su instalación de Windows** sin miedo a romper nada, y **volver a dejar el PC a punto tras una instalación limpia** — apps instaladas y configuración aplicada — con un único `.goprofile`.
+
 ---
 
 ## ✨ Características
